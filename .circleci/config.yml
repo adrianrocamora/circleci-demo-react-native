@@ -3,7 +3,9 @@ jobs:
   node:
     working_directory: ~/demo-react-native
     docker:
-      - image: circleci/node:8
+      #- image: circleci/node:8
+      #- image: circleci/android:api-28-node8-alpha
+      - image: circleci/android:api-28-node
     steps:
       - checkout
 
